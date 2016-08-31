@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+@section style{
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+            table td, table th {
+                border: 1px solid #666666;
+                text-align: center;
+                min-width: 60px;
+                white-space:nowrap
+            }
+    </style>
+}
+
+<table id="table">
+
+</table>
+
+<textarea id="txt" rows="100" cols="1000"></textarea>
+
+
+@section scripts{
+    <script>
+        $(function () {
+            $.post("@Url.Action("GetData")"
+                , null
+                , function (obj) {
+                    $("#txt").val(JSON.stringify(obj));
+
+                    var html = [];
+                    for(var row of obj.Rows)
+                    {
+                        html.push("<tr>")
+                        for (var cell of row.Cells) {
+                            html.push("<td colspan='" + cell.ColumnSpan + "' rowspan='" + cell.RowSpan + "' data-row='" + cell.RowIndex + "' data-col='" + cell.ColumnIndex + "'>");
+                            cell.Value == null ? "" : html.push(cell.Value);
+                            html.push("</td>")
+                        }
+                        html.push("</tr>")
+                    }
+                    $("#table").html(html.join(""));
+                }
+                , "json"
+            );
+        });
+    </script>
+}
