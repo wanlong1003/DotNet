@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "DotNet.Utilities\Utilities.csproj", "{978024A7-F839-4C80-8CA2-4CCABC57ADCE}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcFramework", "DotNet.MvcFramework\MvcFramework.csproj", "{B5E0DF4C-E714-417D-9102-524E6E242086}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPOITester", "NPIOTester\NPOITester.csproj", "{11DE5BF7-98DE-4DFF-B5F6-070FE2A74ABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Face", "Face\Face.csproj", "{A0EF723A-6220-4D9E-A3A8-EF32E8C20C4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{11DE5BF7-98DE-4DFF-B5F6-070FE2A74ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11DE5BF7-98DE-4DFF-B5F6-070FE2A74ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11DE5BF7-98DE-4DFF-B5F6-070FE2A74ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0EF723A-6220-4D9E-A3A8-EF32E8C20C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0EF723A-6220-4D9E-A3A8-EF32E8C20C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0EF723A-6220-4D9E-A3A8-EF32E8C20C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0EF723A-6220-4D9E-A3A8-EF32E8C20C4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
