@@ -1,13 +1,15 @@
 # DotNet
 Commonly used code to collect for c#
 
-# DotNet.Utilities£¨³£ÓÃµÄ¹¤¾ßÀà£©
-1. Êı¾İ¿â°ïÖúÀà£¨Ö§³ÖSQLite¡¢Oracle¡¢SqlServer£©
-2. Email°ïÖúÀà
-3. ¼ÓÃÜ½âÃÜÀà£¨MD¡¢DES¡¢RSA£©
-4. NPOIµÄ·â×°
+# DotNet.Utilitiesï¼ˆå¸¸ç”¨çš„å·¥å…·ç±»ï¼‰
+1. æ•°æ®åº“å¸®åŠ©ç±»ï¼ˆæ”¯æŒSQLiteã€Oracleã€SqlServerï¼‰
+2. Emailå¸®åŠ©ç±»
+3. åŠ å¯†è§£å¯†ç±»ï¼ˆMDã€DESã€RSAï¼‰
+4. NPOIçš„å°è£…
 
 
-# DotNet.MvcFramework £¨MVC»ù´¡¿ò¼Ü£©
+# DotNet.MvcFramework ï¼ˆMVCåŸºç¡€æ¡†æ¶ï¼‰
 
-# DotNet.Test£¨²âÊÔÏîÄ¿£©
+# DotNet.Testï¼ˆæµ‹è¯•é¡¹ç›®ï¼‰
+
+<span style="color:#f00">aaaaaaaaa</span>
